@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400&display=swap');
+
+:root {
+  --aether-bg: #0a0a0f;
+  --aether-primary: #00d4aa;
+  --aether-secondary: #0891b2;
+  --aether-accent: #22d3ee;
+  --aether-text: #e2e8f0;
+  --aether-muted: #64748b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--aether-bg);
+  color: var(--aether-text);
+  font-family: 'Inter', system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--aether-primary);
+  color: var(--aether-bg);
+}
+
+.glow {
+  text-shadow: 0 0 20px var(--aether-primary), 0 0 40px var(--aether-primary);
+}
+
+.glow-subtle {
+  text-shadow: 0 0 10px rgba(0, 212, 170, 0.5);
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out forwards;
+}
+
+.animate-fade-in-delay {
+  opacity: 0;
+  animation: fade-in 1s ease-out 0.3s forwards;
+}
