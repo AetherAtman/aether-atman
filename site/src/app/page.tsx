@@ -252,7 +252,7 @@ export default function Home() {
                 Helping build the community engine for project-based education.
                 Learn by doing, not watching.
               </p>
-              <a href="https://atmanacademy.vercel.app/vibe" target="_blank" rel="noopener noreferrer"
+              <a href="https://atmanacademy.io/vibe" target="_blank" rel="noopener noreferrer"
                  className="text-amber-500 hover:text-amber-400 text-sm mt-2 inline-block">
                 vibeacademy →
               </a>
@@ -312,7 +312,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="py-12 text-center text-gray-500 text-sm space-y-2">
-        <p>Part of the <a href="https://atmanacademy.vercel.app" target="_blank" rel="noopener noreferrer" className="text-amber-500 hover:text-amber-400">Atman Universe</a></p>
+        <p>Part of the <a href="https://atmanacademy.io" target="_blank" rel="noopener noreferrer" className="text-amber-500 hover:text-amber-400">Atman Universe</a></p>
         <p className="opacity-50">Hatched 2026-01-27 ✨</p>
       </footer>
     </main>
